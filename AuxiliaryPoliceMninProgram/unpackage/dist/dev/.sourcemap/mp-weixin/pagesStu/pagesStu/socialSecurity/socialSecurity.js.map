@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,mP;AACAA,UAAU,CAACC,uBAAD,CAAV,C","file":"pagesStu/pagesStu/socialSecurity/socialSecurity.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pagesStu/pagesStu/socialSecurity/socialSecurity.vue'\ncreatePage(Page)"],"sourceRoot":""}

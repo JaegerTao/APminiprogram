@@ -1,0 +1,1 @@
+<view class="Item"><view class="{{['Icon text-blue',icon]}}"></view><view class="Num">{{num}}</view><view class="Title">{{title}}</view></view>

@@ -1,0 +1,1 @@
+<view class="recruitmentsDetail data-v-1265ee7a"><view class="main data-v-1265ee7a"><view class="title data-v-1265ee7a"><rich-text nodes="{{recruitmentsDetail.title}}" class="data-v-1265ee7a"></rich-text></view><view class="content data-v-1265ee7a"><rich-text nodes="{{recruitmentsDetail.content}}" class="data-v-1265ee7a"></rich-text></view></view></view>

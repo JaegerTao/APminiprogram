@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "single-choice": "/pagesStu/onlineExam/quesTypes/single-choice",
+    "multiple-choice": "/pagesStu/onlineExam/quesTypes/mutiple-choice",
+    "short-answer": "/pagesStu/onlineExam/quesTypes/short-answer",
+    "answer-sheet": "/pagesStu/onlineExam/componentItem/answer-sheet"
+  }
+}

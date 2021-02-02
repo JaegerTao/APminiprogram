@@ -1,0 +1,28 @@
+.header.data-v-3f3a8f3a {
+  border-radius: 0rpx 0rpx 30rpx 30rpx;
+}
+.header .circlePercent.data-v-3f3a8f3a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.header .statInfo.data-v-3f3a8f3a {
+  margin-left: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+          justify-content: space-evenly;
+}
+.header .statInfo .pTitle.data-v-3f3a8f3a,
+.header .statInfo .pNum.data-v-3f3a8f3a {
+  font-size: 35rpx;
+}
+

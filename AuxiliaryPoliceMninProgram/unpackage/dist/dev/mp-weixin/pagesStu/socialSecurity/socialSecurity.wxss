@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.search_area.data-v-3ffdd75e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  padding: 20rpx 0;
+  border: 1rpx solid grey;
+}
+.search_area view.data-v-3ffdd75e {
+  letter-spacing: 5rpx;
+}
+.date_select_bg.data-v-3ffdd75e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 10rpx 20rpx;
+  margin: 20rpx auto;
+}
+.type_select_area.data-v-3ffdd75e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1rpx solid black;
+  padding-bottom: 10rpx;
+}
+.social_card.data-v-3ffdd75e {
+  margin: 5% auto;
+  width: 90%;
+  border-radius: 10rpx;
+  background-color: #CCE6FF;
+  box-shadow: 1rpx 1rpx 1rpx #CCE6FF;
+}
+.social_card .card_time.data-v-3ffdd75e {
+  font-size: 40rpx;
+  font-weight: bold;
+  padding: 50rpx 0 30rpx 100rpx;
+}
+.social_card .card_info.data-v-3ffdd75e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  padding-bottom: 50rpx;
+}
+.security.data-v-3ffdd75e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.security_card.data-v-3ffdd75e {
+  margin: 5% auto;
+  width: 90%;
+  border-radius: 10rpx;
+  background-color: #CCE6FF;
+  box-shadow: 1rpx 1rpx 1rpx #CCE6FF;
+}
+.security_card .card_name.data-v-3ffdd75e {
+  font-size: 40rpx;
+  font-weight: bold;
+  padding: 30rpx 0 0 50rpx;
+}
+.security_card .card_number.data-v-3ffdd75e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 15rpx 0 0 50rpx;
+}
+.security_card .card_money.data-v-3ffdd75e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 15rpx 0 0 50rpx;
+}
+.security_card .card_status.data-v-3ffdd75e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 90rpx 0 30rpx 500rpx;
+}
+.security_item.data-v-3ffdd75e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 90%;
+  padding: 20rpx 50rpx;
+  margin: auto;
+}
+.security_item.data-v-3ffdd75e:nth-child(1) {
+  border: 1rpx solid black;
+  border-top-right-radius: 10rpx;
+  border-top-left-radius: 10rpx;
+}
+.security_item.data-v-3ffdd75e:nth-child(2) {
+  border-left: 1rpx solid black;
+  border-right: 1rpx solid black;
+  border-bottom: 1rpx solid black;
+  border-bottom-right-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+}
+.box.data-v-3ffdd75e {
+  left: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+

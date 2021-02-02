@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "circle-percent": "/components/circle-percent/circle-percent",
+    "answer-sheet": "/pagesStu/onlineExam/componentItem/answer-sheet"
+  }
+}

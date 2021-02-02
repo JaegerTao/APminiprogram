@@ -1,0 +1,27 @@
+.Head.data-v-66886a5f {
+  height: 300rpx;
+}
+.Head .circlePercent.data-v-66886a5f {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.Head .Shape view.data-v-66886a5f {
+  position: absolute;
+  top: 0rpx;
+  left: -20rpx;
+  width: 800rpx;
+  height: 300rpx;
+  background-color: rgba(37, 106, 159, 0.5);
+}
+.Head .Shape .Shape1.data-v-66886a5f {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+.Head .Shape .Shape2.data-v-66886a5f {
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+

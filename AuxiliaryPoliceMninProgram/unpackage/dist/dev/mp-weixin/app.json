@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/announcements/announcements",
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/login/forgetPwd/forgetPwd",
+    "pages/announcements/recruitmentsDetail/recruitmentsDetail",
+    "pages/announcements/noticeDetail/noticeDetail",
+    "pages/mine/personInfo/personInfo",
+    "pages/mine/infoChange/infoChange"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesStu",
+      "pages": [
+        "recruitmentReport/recruitmentReport",
+        "salaryQuery/salaryQuery",
+        "socialSecurity/socialSecurity",
+        "onlineExam/onlineExam",
+        "bulletiBboard/bulletiBboard",
+        "payCost/payCost",
+        "onlineExam/examFrame/examFrame",
+        "onlineExam/examFrame/startFrame",
+        "onlineExam/examFrame/endFrame"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTitleText": "昆明辅警服务与管理系统",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/index_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine_selected.png"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pagesStu"
+      ]
+    }
+  },
+  "usingComponents": {
+    "van-collapse": "/wxcomponents/vant-weapp/collapse/index",
+    "van-collapse-item": "/wxcomponents/vant-weapp/collapse-item/index"
+  }
+}

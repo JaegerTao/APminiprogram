@@ -1,0 +1,31 @@
+page {
+  background-color: #f2f2f4;
+}
+.TimeLeft {
+  font-size: 36rpx;
+}
+.Pause button {
+  width: 450rpx;
+}
+.Shape view {
+  position: absolute;
+  top: 270rpx;
+  left: -20rpx;
+  width: 800rpx;
+  height: 300rpx;
+  background-color: rgba(165, 165, 182, 0.5);
+  border-radius: 20rpx;
+}
+.Shape .Shape1 {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+.Shape .Shape2 {
+  -webkit-transform: translateY(300rpx) rotate(-30deg);
+          transform: translateY(300rpx) rotate(-30deg);
+}
+.Shape .Shape3 {
+  -webkit-transform: translateY(500rpx) rotate(40deg);
+          transform: translateY(500rpx) rotate(40deg);
+}
+

@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "ques-index": "/pagesStu/onlineExam/componentPages/ques-index",
+    "test-record": "/pagesStu/onlineExam/componentPages/test-record",
+    "error-record": "/pagesStu/onlineExam/componentPages/error-record",
+    "message-center": "/pagesStu/onlineExam/componentPages/message-center"
+  }
+}

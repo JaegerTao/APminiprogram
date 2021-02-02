@@ -1,0 +1,37 @@
+.Top.data-v-3ed1db84 {
+  height: 320rpx;
+  border-radius: 30rpx 30rpx 0rpx 0rpx;
+  position: relative;
+  background-color: #808080;
+}
+.Top .circlePercent.data-v-3ed1db84 {
+  position: absolute;
+  top: 20rpx;
+  left: 260rpx;
+}
+.Top .statInfo.data-v-3ed1db84 {
+  position: relative;
+  font-weight: 100;
+  color: #FFFFFF;
+}
+.Top .problem.data-v-3ed1db84 {
+  position: relative;
+  top: 60rpx;
+  left: 50rpx;
+  font-size: 35rpx;
+}
+.Top .paper.data-v-3ed1db84 {
+  position: relative;
+  top: 60rpx;
+  left: 550rpx;
+  font-size: 35rpx;
+}
+.Top .pTitle.data-v-3ed1db84 {
+  position: absolute;
+}
+.Top .pNum.data-v-3ed1db84 {
+  position: absolute;
+  top: 80rpx;
+  left: 50rpx;
+}
+

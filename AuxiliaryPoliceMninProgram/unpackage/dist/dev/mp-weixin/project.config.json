@@ -1,0 +1,54 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "minified": false,
+    "es6": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx2ae6613c67b30006",
+  "projectname": "AuxiliaryPoliceMninProgram",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "login",
+          "id": 0,
+          "pathName": "pages/login/login"
+        },
+        {
+          "name": "onlineExam",
+          "id": 1,
+          "pathName": "pagesStu/onlineExam/onlineExam"
+        },
+        {
+          "name": "examFrame",
+          "id": 2,
+          "pathName": "pagesStu/onlineExam/examFrame/examFrame"
+        },
+        {
+          "name": "endFrame",
+          "id": 3,
+          "pathName": "pagesStu/onlineExam/examFrame/endFrame"
+        }
+      ]
+    }
+  }
+}

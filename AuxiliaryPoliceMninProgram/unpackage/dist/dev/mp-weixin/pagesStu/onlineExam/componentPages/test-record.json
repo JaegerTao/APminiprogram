@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "icon-text-item": "/pagesStu/onlineExam/componentItem/icon-text-item"
+  }
+}

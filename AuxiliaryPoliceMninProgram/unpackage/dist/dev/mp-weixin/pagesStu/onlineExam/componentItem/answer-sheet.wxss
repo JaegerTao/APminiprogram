@@ -1,0 +1,12 @@
+.AnswerSheet .Bg.data-v-0028f73b {
+  background-color: rgba(177, 175, 191, 0.5);
+}
+.AnswerSheet scroll-view.data-v-0028f73b {
+  height: 700rpx;
+}
+.AnswerSheet button.data-v-0028f73b {
+  margin: 20rpx 20rpx;
+  width: 65rpx;
+  height: 65rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "message-list-item": "/pagesStu/onlineExam/componentItem/message-list-item"
+  }
+}
